@@ -1,0 +1,160 @@
+
+    section.nome div{
+        padding: 16px;
+        border-radius: 50px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        text-align: center;
+        }
+
+
+    section.nome h1{
+    color:#4B066C;
+    font-size: 2.500rem;
+    }
+    
+    section.colon {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    column-gap: 150px;
+    padding: 16px;
+    margin-left: 50px;
+    margin-right: 50px;
+    }
+    
+    section.colon div {
+    border-radius: 10px;
+    margin-bottom: 100px;
+    }
+    
+    section.colon div.text{
+    border-radius: 10px;
+    background-color: #4B066C;
+    color: #ffffff;
+    padding: 10px;
+    }
+    
+    section.colon div img {
+    border-radius: 10px;
+    height: 400px;
+    object-fit: cover;
+    width: 100%;
+    background-color: none;
+    }
+    
+    section.colon div h1 {
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    font-size: 1.563rem;
+    padding-bottom: 10px;
+    text-align: center;
+    }
+    
+    
+    section.colon h1:hover {
+    text-decoration: none;
+    color: rgb(255, 0, 149);
+    }
+    
+
+
+
+    /**********************
+                        MOBILE
+*********************/
+
+@media (max-width: 481px) {
+    html, body {
+        font-size: 12px;
+    }
+
+    header.container {
+        flex-direction: column;
+    }
+
+    header.container > nav {
+        padding-top: 1.5rem;
+    }
+
+
+    header div.logo a {
+        font-size: 1.25rem;
+    }
+
+    header li {
+        display: inline;
+        padding-right: 20px;
+        text-align: center;
+    }
+
+    header div.logo h1 {
+        font-size: 40px;
+    }
+
+    section.colon{
+        margin: 70px auto, 70px auto;
+    }
+}
+
+/**********************
+                        TABLET
+*********************/
+
+@media (min-width: 481px) and (max-width: 680px) {
+
+    header div.logo a {
+        font-size: 1.25rem;
+    }
+
+    header li {
+        display: inline;
+        padding-right: 20px;
+        text-align: center;
+    }
+
+    header div.logo h1 {
+        font-size: 40px;
+    }
+}
+
+
+
+
+@media (min-width: 481px) and (max-width: 881px) {
+    html, body {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+@media (min-width: 681px) and (max-width: 881px) {
+
+    header div.logo a {
+        font-size: 1.563rem;
+    }
+
+    header li {
+        display: inline;
+        padding-right: 25px;
+        text-align: center;
+    }
+
+    header div.logo h1 {
+        font-size: 30px;
+    }
+}
+
+
+
+/**********************
+                        OVER DESKTOP
+*********************/
+@media (min-width: 1024px) {
+    html, body {
+        font-size: 18px;
+    }
+
+}
